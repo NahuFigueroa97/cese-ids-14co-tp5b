@@ -25,18 +25,30 @@
 
 /*=====[Definitions of public global variables]==============================*/
 
+/**
+ * @brief Estructura que guarda los datos de Esteban Volentini.
+ * 
+ */
 static const struct alumno_s ESTEBAN_VOLENTINI = {
     .apellidos = "VOLENTINI",
     .nombres = "Esteban Daniel",
     .documento = "23.517.968",
 };
 
+/**
+ * @brief Estructura que guarda los datos de Nahuel Figueroa.
+ * 
+ */
 static const struct alumno_s NAHUEL_FIGUEROA = {
     .apellidos = "FIGUEROA",
     .nombres = "Nahuel",
     .documento = "39.9996.762",
 };
 
+/**
+ * @brief Estructura que guarda los datos de todos los alumnos.
+ * 
+ */
 const alumno_t ALUMNOS[] = {
     &ESTEBAN_VOLENTINI,
     &NAHUEL_FIGUEROA,
